@@ -1,12 +1,23 @@
 <template>
   <div id="app">
-    <div class="container">
+    <div class="container" style="margin-top:150px;margin-bottom:100px">
+      <div class="title">
+        <h1><strong>The insider’s guide to cutting-edge<br>front-end tools and frameworks</strong></h1>
+      </div>
       <div class="row">
           <div class="col-xs-6 col-md-2">
             <a href="#!" class="thumbnail" style="vertical-align: middle">
-              <img class="menu" src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-black-icons-alphanumeric/070841-glossy-black-icon-alphanumeric-letter-c.png" width="120">
-            <h4 class="title">
-              C++++
+              <img class="menu" src="https://cdn.auth0.com/blog/react-js/react.png" width="120">
+            <h4>
+              React
+            </h4>
+          </a>
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <a href="#!" class="thumbnail" style="vertical-align: middle">
+              <img class="menu" src="http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png" width="120">
+            <h4>
+              JavaScript
             </h4>
           </a>
           </div>
@@ -44,5 +55,9 @@ li {
 
 a {
   color: #42b983;
+}
+
+.title{
+  margin-bottom: 50px;
 }
 </style>
