@@ -2,10 +2,8 @@
   <div id="app">
     <div class="banner">
       <div class="container">
-        <div class="banner">
           <h1>Video tutorials for badass web developers</h1>
           <p>Learn the latest frameworks from industry pros</p>
-        </div>
       </div>
     </div>
     <div class="search">
@@ -59,10 +57,11 @@ a {
 
 
 .banner{
-  background-color: #f94a65;
-  margin-top:20px;
+  background-color: #42494b;
+  margin-top:50px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+
 }
 
 h1.banner_h1{

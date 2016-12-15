@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
-    <Banner2></Banner2>
-    <Menu></Menu>
+    <Banner3></Banner3>
+    <Showplay></Showplay>
     <footers></footers>
   </div>
 </template>
@@ -15,6 +15,7 @@ import Banner from './components/Banner'
 import Footers from './components/Footers'
 import Banner2 from './components/Banner2'
 import Menu from './components/Menu'
+import Banner3 from './components/Banner3'
 
 export default {
   name: 'app',
@@ -25,6 +26,7 @@ export default {
     Banner,
     Footers,
     Banner2,
+    Banner3,
     Menu
   }
 }
