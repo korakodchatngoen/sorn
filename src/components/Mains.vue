@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="container" style="margin-top:150px;margin-bottom:100px">
-      <div class="title">
+      <div class="title" id="menu">
         <h1><strong>The insider’s guide to cutting-edge<br>front-end tools and frameworks</strong></h1>
       </div>
       <div class="row">
@@ -43,6 +43,11 @@ h1, h2 {
   font-weight: normal;
 }
 
+h4{
+  color:#555;
+  text-decoration: none;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -55,6 +60,8 @@ li {
 
 a {
   color: #42b983;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .title{

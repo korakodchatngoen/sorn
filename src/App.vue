@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
-    <banner></banner>
-    <mains></mains>
+    <Banner2></Banner2>
+    <Menu></Menu>
     <footers></footers>
   </div>
 </template>
@@ -13,6 +13,8 @@ import Showplay from './components/Showplay'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import Footers from './components/Footers'
+import Banner2 from './components/Banner2'
+import Menu from './components/Menu'
 
 export default {
   name: 'app',
@@ -21,7 +23,9 @@ export default {
     Showplay,
     Navbar,
     Banner,
-    Footers
+    Footers,
+    Banner2,
+    Menu
   }
 }
 </script>
