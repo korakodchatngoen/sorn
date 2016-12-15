@@ -3,12 +3,12 @@
   <div class="play">
     <div class="container">
         <div class="col-md-12" style="height:478px;overflow: hidden;">
-          <div class="col-md-9" style="padding:0px">
+          <div class="col-xs-12 col-md-9" style="padding:0px">
             <div class="embed-responsive embed-responsive-16by9" style="border:5px solid #555">
               <iframe class="embed-responsive-item" src='http://www.youtube.com/embed/RCMXO9sBIcU' frameborder="0" allowfullscreen ></iframe>
             </div>
           </div>
-          <div class="col-md-3" style="overflow-y:scroll;background-color:#252525;padding:0px;border-top:5px solid #555;border-bottom:5px solid #555;border-right:5px solid #555;height:478px">
+          <div class="col-xs-12 col-md-3 scrollbar" id="style-1">
             <a href="#" class="list">
               <div class="img">
                 <strong>1&nbsp;</strong>
@@ -59,7 +59,7 @@
     <div class="container">
       <h3>Recommended Course<h3>
       <div class="row">
-          <div class="col-xs-6 col-md-4">
+          <div class="col-xs-4 col-md-4">
             <a href="#!" class="thumbnail" style="vertical-align: middle">
               <img src="https://cdn.auth0.com/blog/react-js/react.png" width="120">
             <h4>
@@ -67,7 +67,7 @@
             </h4>
           </a>
           </div>
-          <div class="col-xs-6 col-md-4">
+          <div class="col-xs-4 col-md-4">
             <a href="#!" class="thumbnail" style="vertical-align: middle">
               <img src="http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png" width="120">
             <h4>
@@ -75,7 +75,7 @@
             </h4>
           </a>
           </div>
-          <div class="col-xs-6 col-md-4">
+          <div class="col-xs-4 col-md-4">
             <a href="#!" class="thumbnail" style="vertical-align: middle">
               <img src="http://drupal.sh/sites/default/files/styles/large/public/2016-06/angular.png?itok=OAeCV0KX" width="120">
             <h4>
@@ -162,5 +162,38 @@ a {
 .course{
   margin-top: 20px;
 }
+
+.scrollbar
+{
+	overflow-y: scroll;
+	margin-bottom: 25px;
+  background-color:#252525;
+  padding:0px;
+  border-top:5px solid #555;
+  border-bottom:5px solid #555;
+  border-right:5px solid #555;
+  height:478px;
+}
+
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #252525;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #252525;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #9a9a9a;
+}
+
 
 </style>
